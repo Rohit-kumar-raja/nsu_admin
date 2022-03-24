@@ -103,7 +103,21 @@
                                                 class="form-control" placeholder="start	">
 
                                         </div>
-
+                                        <div class="form-group col-sm-4">
+                                            <label for="" class="text-dark"> <b>Duration</b> </label>
+                                            <input required name="duration" value="{{ $data->duration }}" type="text" class="form-control" placeholder=" Fee ">
+            
+                                        </div>
+                                        <div class="form-group col-sm-4">
+                                            <label for="" class="text-dark"> <b>Type</b> </label>
+                                            <select required name="type" type="text" class="form-control" placeholder=" Fee ">
+                                         <option value="{{ $data->type}}" >{{$data->type}}</option>
+                                                <option value="ug">Under Graduate</option>
+                                          <option value="pg">Post Graduate</option>
+                                          <option value="certificate"> Certificate Courses </option>
+            
+                                            </select>
+                                        </div>
 
                                         <div class="form-group col-sm-4">
                                             <label for="" class="text-dark"> <b>Status</b> </label>

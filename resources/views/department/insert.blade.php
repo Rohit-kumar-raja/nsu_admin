@@ -43,6 +43,22 @@
 
                             </div>
                             <div class="form-group col-sm-4">
+                                <label for="" class="text-dark"> <b>Duration</b> </label>
+                                <input required name="duration" type="text" class="form-control" placeholder=" Fee ">
+
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label for="" class="text-dark"> <b>Type</b> </label>
+                                <select required name="type" type="text" class="form-control" placeholder=" Fee ">
+                             <option selected disabled >- Program type -</option>
+                                    <option value="ug">Under Graduate</option>
+                              <option value="pg">Post Graduate</option>
+                              <option value="certificate"> Certificate Courses </option>
+
+                                </select>
+                            </div>
+                          
+                            <div class="form-group col-sm-4">
                                 <label for="" class="text-dark"> <b>Fee</b> </label>
                                 <input required name="fee" type="text" class="form-control" placeholder=" Fee ">
 

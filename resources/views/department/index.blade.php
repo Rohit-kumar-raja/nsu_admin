@@ -88,6 +88,7 @@
                                                 <th>Full Form</th>
                                                 <th>Program Name </th>
                                                 <th>Fee</th>
+                                                <th>Duration</th>
                                                 <th>Banner Imgage</th>
                                                 <th>Details</th>
                                                 <th>Action 1</th>
@@ -102,6 +103,7 @@
                                                 <th>Full Form</th>
                                                 <th>Program Name</th>
                                                 <th>Fee</th>
+                                                <th>Duration</th>
                                                 <th>Banner Imgage</th>
                                                 <th>Details</th>
                                                 <th>Action 1</th>
@@ -120,6 +122,7 @@
                                                     <td> {{ $department->fullform }} </td>
                                                     <td> {{ $department->program }} </td>
                                                     <td> {{ $department->fee }} </td>
+                                                    <td> {{ $department->duration }} years </td>
 
                                                     <td>
                                                         <img width="100"
