@@ -13,4 +13,5 @@ class Controller extends BaseController
     function slider_url(){
         return 'https://nsuniv.ac.in/Old_Nsuniv/upload/';
     }
+    
 }

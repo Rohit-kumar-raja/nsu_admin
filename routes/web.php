@@ -28,6 +28,7 @@ use App\Http\Controllers\StudentPdfControlller;
 use App\Http\Controllers\TransportController;
 use App\Http\Controllers\TransportRouteController;
 use App\Http\Controllers\HeaderController;
+use App\Http\Controllers\IndexController;
 use App\Http\Controllers\SocialController;
 
 /*
@@ -42,9 +43,7 @@ use App\Http\Controllers\SocialController;
 */
 
 
-Route::get('/', function () {
-    return view('index');
-})->middleware(['auth'])->name('dashboard');
+Route::get('/', [ IndexController::class,'index' ] )->middleware(['auth'])->name('dashboard');
 
 Route::get('slider', [SliderController::class, 'index'])->middleware('auth')->name('slider');
 Route::post('slider', [SliderController::class, 'store'])->middleware('auth')->name('slider.insert');
