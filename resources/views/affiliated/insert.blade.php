@@ -51,12 +51,12 @@
 
                                 </select>
                             </div>
-                            <div class="form-group col-sm-12">
+                            {{-- <div class="form-group col-sm-12">
                                 <label for="" class="text-dark"> <b>Description</b> </label>
                                 <textarea required name="description" type="text" class="form-control ckeditor"
                                     placeholder="description"></textarea>
 
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <hr>

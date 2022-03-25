@@ -101,12 +101,12 @@
 
                                             </select>
                                         </div>
-                                        <div class="form-group col-sm-12">
+                                        {{-- <div class="form-group col-sm-12">
                                             <label for="" class="text-dark"> <b>Description</b> </label>
                                             <textarea name="description" id="description" class="form-control ckeditor"
                                                 placeholder="description">{{ $data->description }}</textarea>
 
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                                 <hr>
